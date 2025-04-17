@@ -55,7 +55,6 @@ defmodule Facebook.Mixfile do
 
   defp deps do
     [
-      {:json, ">= 1.2.5"},
       {:httpoison, "~> 1.4"},
       {:mock, "~> 0.3.2", only: :test},
       {:mix_test_watch, "~> 0.9", only: :dev, runtime: false},
